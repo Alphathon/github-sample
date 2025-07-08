@@ -1,0 +1,11 @@
+package com.example.githubsearch.model;
+
+import lombok.Data;
+
+@Data
+public class PullRequestDetails {
+    private String title;
+    private String url;
+    private String lastCommitUser;
+    private String repoOwner;
+}

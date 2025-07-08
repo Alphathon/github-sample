@@ -1,0 +1,17 @@
+package com.example.githubsearch.model;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class GitHubRepo {
+    private String name;
+    private String html_url;
+    private String description;
+    private String language;
+    private int stargazers_count;
+    private String owner;
+
+    private List<PullRequestDetails> pullRequests;
+}
